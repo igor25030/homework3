@@ -1,23 +1,27 @@
-my_list = [1, 2, 3]   #1
-my_new_list = [i * 2 for i in my_list]
-print(my_new_list)
+# 1-е задание
+myList = [1, 2, 3]
+myNewList = [i * 2 for i in myList]
+print(myNewList)
 
-lst = [1,2,3]   #2
-c=0
-for i in lst:
-    c+=i*i
-print(c)
+# 2-е задание
+myList = [1, 2, 3]
+myNewList = [i * * 2 for i in myList]
+print(myNewList)
 
+# 3-е задание
 s = 'Hello world' #3
-if ' ' in s:
+if '' in s:
     s=s.upper()
     print(s)
 else:
     s = s.lower()
     print(s)
 
-year1 = 2020   #4
+# 4-е задание
+from datetime import datetime
+
+year1 = 2020
 year2 = 1900
-year3 = year1 - year2
-for i in range(year3+1):
-    print(year2 + i)
+rad = year1 - year2
+for i in range(rad+1):
+ print(year2 + i)
